@@ -9,7 +9,6 @@ Data was added to a feature class. InsertCursor was used in the code to establis
 
 
 
-In the repository of the project, write a report including how the code was developed and how to use the code
 
 
 
