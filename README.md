@@ -4,7 +4,7 @@ First, we expolored the json file and found that it consisted of a number of fil
 Data was written to a feature class. Our workspace link and name of the shapefile were established. The names of the three fields were understood (FID, Shape, ID). The field types were inputted into the code TEXT and LONG codes, but were outputted as the file names. id was changed to id_1 and ID was changed to id_10. Shape.STArea() was shortened to Shape_STAr, while Shape.STLength() was shortened to Shape_STLe. SHAPE@ was also added to the list of files by using the code "field_names.append('SHAPE@')". Inputting "field_names" into VS Code showed the final list of updated files, with their new names and the manually added files. 
 Data was added to a feature class. InsertCursor was used in the code to establish a new feature class, while each value was processed, except the value that belongs to number 8 (it was skipped). "for row in tax_json['data']:
     print(row)" printed the metadata information for each value/file. 
-    Moving over to ArcGIS Pro, notax2_fc.shp (shapefile) was added to the map. A new python toolbox was created, where the data of it was edited in VS Code. It was then refreshed and updated in ArcGIS Pro so the edits were seen in both programs. 
+    Moving over to ArcGIS Pro, notax2_fc.shp (shapefile) was added to the map. A new python toolbox was created, where the data of it was edited in VS Code. It was then refreshed and updated in ArcGIS Pro so the edits were seen in both programs. The symbology was then adjusted for the map and a new layout was created with different elements. 
 
 
 
